@@ -1,5 +1,6 @@
 ---
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 ---
 
@@ -12,10 +13,13 @@ import '../styles/global.css';
 		<title>Blog</title>
 	</head>
 	<body>
-        <Navigation />
+        <Header />
 
     <h1>Blog</h1>
 
-
+<Footer />
+  <script>
+    import "../scripts/menu.js";
+  </script>
 </body>
 </html>
